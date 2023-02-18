@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+#Content {
+  font-family: "Playfair Display", sans-serif;
+  margin: 0 auto;
+  max-width: 110rem;
+  .about__section {
+    padding: 64px 0;
+    .about__section-img {
+      width: 50%;
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+
+      padding: 12px 24px !important;
+      img {
+        opacity: 0.75;
+        border-radius: 4px;
+        vertical-align: middle;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+
+    .about-section_content {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1.5;
+      padding: 12px 24px;
+
+      h1 {
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 10px 0;
+        font-weight: 400;
+        font-size: 3.6rem;
+      }
+      h5 {
+        font-size: 1.8rem;
+        text-align: center;
+        letter-spacing: 5px;
+        margin: 10px 0;
+        font-weight: 400;
+      }
+      p {
+        font-size: 1.8rem;
+        margin: 1.8rem 0;
+        span {
+          background: #f1f1f1 !important;
+          padding: 3px 8px;
+        }
+      }
+      .about-section__description {
+        color: #757575 !important;
+      }
+    }
+  }
+  .menu__section {
+    padding: 64px 0;
+    font-family: "Playfair Display", serif;
+    h1 {
+      text-align: center;
+      letter-spacing: 5px;
+    }
+    h4 {
+      letter-spacing: 5px;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+    p {
+      color: #757575;
+    }
+    h4,
+    p {
+      margin: 10px 0;
+    }
+    .menu__section-content {
+      width: 50%;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 1.5;
+      padding: 12px 24px;
+    }
+    .menu__section-img {
+      width: 50%;
+      display: inline-block;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        opacity: 0.75;
+        border-radius: 4px;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  #Content {
+    .about__section {
+      .about__section-img {
+        display: block;
+        width: 100%;
+        img{
+          width: 100%;
+          display: none;
+        }
+      }
+    }
+    .about-section_content {
+      width: 100% !important;
+    }
+    .menu__section {
+      .menu__section-content {
+        width: 100%;
+      }
+      .menu__section-img {
+        width: 100%;
+        img {
+          width: 95%;
+          display: block;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

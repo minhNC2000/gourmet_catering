@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+header {
+  font-family: "Playfair Display", sans-serif;
+
+  max-width: 1600px;
+  min-width: 500px;
+  position: relative;
+  margin: auto;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .home__title {
+    padding: 12px 24px !important;
+    margin: 1rem 0;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    opacity: 0.6;
+  }
+}
