@@ -6,11 +6,11 @@ export default function Footer() {
       <p>
         Powered by{" "}
         <a
-          href="https://www.w3schools.com/w3css/default.asp"
+          href="https://www.facebook.com/minh.nc.2000/"
           title="W3.CSS"
           target="_blank"
         >
-          w3.css
+          Minhnc.2000
         </a>
       </p>
     </div>
