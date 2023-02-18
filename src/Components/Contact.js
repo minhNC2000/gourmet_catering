@@ -3,6 +3,7 @@ import "../assets/scss/contact.scss";
 
 const infos = [
   {
+    id: 1,
     name: "Catering Service",
     address: "42nd Living St",
     zipcode: 43043,
@@ -21,11 +22,9 @@ export default function Contact() {
       </p>
       <div className="address">
         {infos.map((info) => (
-          <React.Fragment>
-            <b>
-              {info.name},{info.address},{info.zipcode},{info.City}
-            </b>
-          </React.Fragment>
+          <div key={info.id}>
+            {info.name},{info.address},{info.zipcode},{info.City}
+          </div>
         ))}
       </div>
       <p>
